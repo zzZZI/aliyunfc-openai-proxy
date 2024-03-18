@@ -9,7 +9,7 @@ services:
         - run: npm install
           path: ./code
     props:
-      region: us-west-1 # 默认使用美国(硅谷)区域，如有需要可调整其他海外区域
+      region: cn-shenzhen # 默认使用美国(硅谷)区域，如有需要可调整其他海外区域
       service:
         name: openai
         description: openai
