@@ -3,7 +3,7 @@ const { createProxyMiddleware } = require("http-proxy-middleware");
 const app = express();
 
 const apiProxy = createProxyMiddleware("/", {
-  target: "https://api.openai.com",
+  target: "https://opanaiserver1.openai.azure.com",
   changeOrigin: true,
 });
 
