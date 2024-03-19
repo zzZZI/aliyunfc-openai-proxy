@@ -19,7 +19,7 @@ services:
         codeUri: ./code
         runtime: custom
         caPort: 9000
-        timeout: 30
+        timeout: 3000
         customRuntimeConfig:
           command:
             - node
